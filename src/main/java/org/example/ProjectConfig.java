@@ -12,4 +12,20 @@ public class ProjectConfig {
         p.setName("kaka");
         return p;
     }
+
+    @Bean
+    Parrot parrot1()
+    {
+        Parrot p=new Parrot();
+        p.setName("sweety");
+        return p;
+    }
+
+    @Bean
+    Parrot parrot2()
+    {
+        Parrot p=new Parrot();
+        p.setName("sofy");
+        return p;
+    }
 }
